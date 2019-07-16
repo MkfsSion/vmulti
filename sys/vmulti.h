@@ -1,22 +1,12 @@
 #if !defined(_VMULTI_H_)
 #define _VMULTI_H_
 
-#pragma warning(disable:4200)  // suppress nameless struct/union warning
-#pragma warning(disable:4201)  // suppress nameless struct/union warning
-#pragma warning(disable:4214)  // suppress bit field types other than int warning
 #include <initguid.h>
 #include <wdm.h>
-
-#pragma warning(default:4200)
-#pragma warning(default:4201)
-#pragma warning(default:4214)
 #include <wdf.h>
-
-#pragma warning(disable:4201)  // suppress nameless struct/union warning
-#pragma warning(disable:4214)  // suppress bit field types other than int warning
 #include <hidport.h>
 
-#include "vmulticommon.h"
+#include "../inc/vmulticommon.h"
 
 //
 // String definitions

@@ -1,8 +1,8 @@
-#include <windows.h>
-#include <hidsdi.h>
-#include <setupapi.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <Windows.h>
+#include <SetupAPI.h>
+#include <hidsdi.h>
 
 #include "vmulticlient.h"
 
